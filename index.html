@@ -1,38 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-
+  <title>CSS Stylesheets with Relative Paths</title>
+  <link rel="stylesheet" href="../week1-day2-html-css/style.css">
 </head>
 
 <body>
-  <h1>Student Bio</h1>
-  <h2>Joel Dore</h2>
-  <img src="http://goo.gl/vyAs27" alt="Profile">
-
-  <p id="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-    commodo consequat.</p>
-
-  <h2>Contact Info</h2>
-  <ul>
-    <li>
-      <b>Email: </b>
-      <a href="mail-to:dore.joel.dore.com">dore.joel.dore@gmail.com</a>
-    </li>
-    <li>
-      <b>Github: </b>
-      <a href="https://github.com/JoelDore">https://github.com/JoelDore</a>
-    </li>
-    <li>
-      <b>Portfolio: </b>
-      <a href="#">[Portfolio Link]</a>
-    </li>
-  </ul>
-
+  <header>
+    <h1>Student Bio</h1>
+  </header>
+  <div class="container">
+    <section id="main-bio">
+      <h2>Joel Dore</h2>
+      <img id="bio-image" src="https://placehold.it/200x200" alt="Joel Dore Profile">
+      <p>Lorem ipsum blah blah blah this is a placeholder bio</a></p>
+    </section>
+    <section id="contact-info">
+      <h2>Contact Info</h2>
+      <ul>
+        <li><strong>Email:</strong> <a href="#">someplace@gmail.com</a></li>
+        <li><strong>Github:</strong> <a href="#">sampleName</a></li>
+        <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
+      </ul>
+    </section>
+  </div>
 </body>
 
 </html>
