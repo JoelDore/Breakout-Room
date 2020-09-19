@@ -2,6 +2,7 @@ body {
   background-color: #efeee7;
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: #333333;
+  line-height: 150%;
   margin: 0;
   padding: 0;
 }
@@ -11,9 +12,42 @@ header {
 }
 
 h1 {
+  padding: 14px;
+  margin: 0;
+  margin-bottom: 20px;
+  text-align: center;
   color: #eee;
   font-size: 28px;
-  padding: 10px;
-  text-align: center;
-  margin-top: 0;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+a {
+  color: #d21034;
+}
+
+.container {
+  width: 1024px;
+  margin: 20 auto;
+}
+
+#main-bio,
+#contact-info,
+#bio-image {
+  float: left;
+}
+
+#bio-image {
+  width: 200px;
+  margin-right: 20px;
+}
+
+#main-bio {
+  width: 70%;
+}
+
+#content-info {
+  width: 30%;
 }
